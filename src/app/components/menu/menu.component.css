@@ -1,0 +1,45 @@
+/*Parqa colocar un elemento al lado del otro y poner espacion entre ellos */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  
+    
+}
+.logo{
+    margin-left: 3.3em;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 23px;
+    padding: 5px;
+    font-family:'Times New Roman', Times, serif;
+}
+.menu a:hover{
+    background-color:#1B9DF0;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:991px)
+{
+
+    .logo{
+        margin-left: 0em;
+    }
+   
+}
+
+@media screen and (max-width:551px)
+{
+    .logo{
+        margin-left: 0em;
+    }
+}
+
+

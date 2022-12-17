@@ -1,0 +1,202 @@
+.container-banner{
+    width: 90%;
+    height:550px;
+    /*background-color: rgb(64, 235, 64);*/
+    /*background-image: url(../../../assets/img/fondo.jpg);
+    /*background-color: blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;*/
+    padding-top: 1px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+h1{
+    font-size: 60px;
+}
+
+i.fa-solid.fa-brackets-curly{
+    color: #1B9DF0;
+   font-size: 100px; 
+}
+.parrafo{
+   /*background-color: blueviolet;*/
+   margin: auto;  
+}
+.imagen{
+    /*background-color: blueviolet; */
+    width:100%;
+    height: 450px;
+}
+
+.subtitulo{
+    color: #1B9DF0;
+}
+
+.boton{
+    /* background-color: #1B9DF0;
+     border-radius: 200px;
+     padding: 10px;
+     color: black;
+     font-size: 20px;
+     text-decoration: none;*/
+     justify-content: center;
+     text-decoration: none;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 400;
+   font-size: 13px;
+   letter-spacing: 1px;
+   display: inline-block;
+   padding: 8px 30px 9px 30px;
+   border-radius: 50px;
+   transition: 0.5s;
+   background:#1B9DF0;
+   border: 1px solid#1B9DF0;
+   color: #000;
+ 
+ 
+ }
+
+.boton:hover{
+    background-color: rgb(136, 131, 131);
+    border-radius: 200px;
+    color: white;
+}
+
+@media screen and (max-width:991px)
+{
+    .container-banner{
+        width: 90%;
+        height:900px;
+       /* background-color: blue;*/
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        padding-top: 2px;
+    }
+    h1{
+        font-size: 40px;  
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+
+    .boton{
+        justify-content: center;
+        text-decoration: none;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 13px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 8px 30px 9px 30px;
+      border-radius: 50px;
+      transition: 0.5s;
+      background:#1B9DF0;
+      border: 1px solid#1B9DF0;
+      color: #000;
+       
+    }
+    
+    .boton:hover{
+        background-color: rgb(136, 131, 131);
+       
+        border-radius: 200px;
+        color: white;
+        justify-content: center;
+        
+    }
+
+   .parrafo{
+       margin-top:10px;
+       padding: 30px;
+       text-align: center; 
+
+   }
+   .imagen{
+    width:100%;
+    padding: auto;
+    /*background-color: blueviolet; */
+   }
+}
+
+@media screen and (max-width:551px)
+{
+
+    .container-banner{
+        width: 90%;
+        height:900px;
+       /* background-color: blue;*/
+        overflow: hidden;
+        margin: auto;
+    }
+
+    h1{
+        font-size: 30px;  
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+   .parrafo{
+      /* background-color: rgb(179, 211, 62);*/
+      /*background-color: blueviolet;*/
+       margin-top:40px; 
+       justify-items: center;
+       margin: auto;
+       padding: 30px;
+    }
+   .imagen
+   {
+       width:100%;
+       padding: auto;
+       /*background-color: blueviolet; */
+       
+   }
+
+}
+@media screen and (max-width:343px)
+{
+
+    .container-banner{
+        width: 90%;
+        height:900px;
+       /* background-color: blue;*/
+        overflow: hidden;
+        margin: auto;
+    }
+    .parrafo{
+        /* background-color: rgb(179, 211, 62);*/
+        /*background-color: rgb(230, 120, 120);*/
+         margin-top:10px; 
+         justify-items: center;
+         margin: auto;
+         padding: 10px;
+      }
+
+    h1{
+        font-size: 20px;  
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+        font-size: 15px; 
+    }
+    p{
+        font-size: 10px;  
+    }
+
+}
